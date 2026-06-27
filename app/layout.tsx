@@ -10,10 +10,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'YükümNerede — Anında Taşıma Fiyat Hesaplama',
+  title: 'İstanbul Evden Eve Nakliyat & Parça Eşya Taşıma | Anında Net Fiyat',
   description:
-    'Parça eşya ve komple ev taşımacılığı için anlık ön fiyat hesaplayın. Sabit fiyat garantisi için WhatsApp üzerinden iletişime geçin.',
-  generator: 'v0.app',
+    'Sürpriz maliyetlere son! İstanbul içi nakliye ve parça eşya taşıma fiyatınızı saniyeler içinde hesaplayın. Fotoğrafınızı gönderin, fiyatı sabitleyin.',
   icons: {
     icon: [
       {
