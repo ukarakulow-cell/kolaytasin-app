@@ -12,13 +12,13 @@ const FAQ_ITEMS = [
     id: "sabit-fiyat",
     question: "Fiyatlar gerçekten sabit mi, kapıda ekstra ücret çıkar mı?",
     answer:
-      "Sistemimizin size sunduğu tutar, rotanıza ve kat bilgilerinize göre hesaplanan net fiyattır. WhatsApp üzerinden eşyalarınızın fotoğrafını gönderip teyit ettikten sonra, taşıma günü kesinlikle sürpriz bir maliyet veya ek ücret talep edilmez.",
+      "Net Fiyat Al'ın size sunduğu tutar, rotanıza ve kat bilgilerinize göre hesaplanan net fiyattır. WhatsApp üzerinden eşyalarınızın fotoğrafını gönderip teyit ettikten sonra, taşıma günü kesinlikle sürpriz bir maliyet veya ek ücret talep edilmez.",
   },
   {
     id: "parca-esya",
     question: "Sadece birkaç parça eşyam var, taşıyor musunuz?",
     answer:
-      'Evet, sistemimiz hem komple ev taşıma hem de tekil eşyalar için özel olarak tasarlanmıştır. İster tek bir beyaz eşya, ister ikinci el aldığınız bir koltuk takımı olsun, "Parça Eşya Taşıma" seçeneğiyle anında fiyat alabilirsiniz.',
+      'Evet, Net Fiyat Al hem komple ev taşıma hem de tekil eşyalar için özel olarak tasarlanmıştır. İster tek bir beyaz eşya, ister ikinci el aldığınız bir koltuk takımı olsun, "Parça Eşya Taşıma" seçeneğiyle anında fiyat alabilirsiniz.',
   },
   {
     id: "fiyat-hesaplama",

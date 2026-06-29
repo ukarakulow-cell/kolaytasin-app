@@ -18,9 +18,15 @@ export default function Page() {
       </section>
       <footer className="border-t border-border px-5 py-8 text-center text-sm text-muted-foreground sm:px-8">
         <span className="font-semibold text-primary">
-          Kolay<span className="text-brand">Taşın</span>
+          Net Fiyat <span className="text-brand">Al</span>
         </span>{" "}
-        — İstanbul içi güvenli ve şeffaf parça nakliye.
+        — İstanbul içi güvenli ve şeffaf nakliye.{" "}
+        <a
+          href="https://www.netfiyatal.com"
+          className="font-medium text-primary underline-offset-4 hover:underline"
+        >
+          netfiyatal.com
+        </a>
       </footer>
     </main>
   )

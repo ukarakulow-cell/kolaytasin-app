@@ -36,7 +36,7 @@ export default function SiteHero() {
       {/* NAVBAR */}
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-5 sm:px-8">
         <a href="#" className="text-2xl font-extrabold tracking-tight text-primary">
-          Kolay<span className="text-brand">Taşın</span>
+          Net Fiyat <span className="text-brand">Al</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -88,13 +88,13 @@ export default function SiteHero() {
           </span>
 
           <h1 className="text-balance text-4xl font-extrabold leading-[1.1] tracking-tight text-primary sm:text-5xl">
-            İstanbul İçi Parça Nakliye: Fiyatı Gör, Sürprizlerle Karşılaşma
+            Net Fiyat Al: İstanbul Nakliyesinde Sürpriz Maliyet Yok
           </h1>
 
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Taşınma günü kapıda değişen fiyatlardan sıkılmadınız mı? Gelişmiş altyapımızla
-            eşyanıza ve mesafenize göre ön fiyatı anında hesaplayın, fotoğrafınızla fiyatı
-            sabitleyip güvenle taşının.
+            Taşınma günü kapıda değişen fiyatlardan sıkılmadınız mı? Net Fiyat Al
+            platformuyla eşyanıza ve mesafenize göre ön fiyatı anında hesaplayın,
+            fotoğrafınızla fiyatı sabitleyip güvenle taşının.
           </p>
 
           {/* Trust badges */}

@@ -267,7 +267,7 @@ export default function MovingCalculator() {
       : LOAD_TYPES.find((l) => l.key === loadType)?.label ?? "—"
     const yn = (v: boolean) => (v ? "Evet" : "Hayır")
     const dash = (v: string) => (v && v.trim() ? v.trim() : "—")
-    const lines: string[] = ["*🚚 KolayTaşın — Taşıma Talebi*", ""]
+    const lines: string[] = ["*🚚 Net Fiyat Al — Taşıma Talebi*", ""]
 
     // Mode
     lines.push(`*📋 Hizmet Türü:* ${isParca ? "Parça Eşya Taşıma" : "Komple Ev Taşıma"}`)
@@ -342,13 +342,13 @@ export default function MovingCalculator() {
       <header className="mb-6 text-center sm:mb-8">
         <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
           <Truck className="h-4 w-4" />
-          Anlık Taşıma Fiyatlandırma
+          Net Fiyat Al
         </div>
         <h2 className="text-balance text-3xl font-bold tracking-tight text-primary sm:text-4xl">
-          Akıllı Fiyat Hesaplama Modülü
+          Anında Net Fiyat Hesaplama
         </h2>
         <p className="mx-auto mt-2 max-w-md text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
-          Birkaç saniyede taşıma ihtiyacınızı belirtin, anlık ön fiyatınızı görün.
+          Birkaç saniyede taşıma ihtiyacınızı belirtin; sürpriz maliyet olmadan net fiyatınızı görün.
         </p>
       </header>
 

@@ -1,9 +1,19 @@
 import type { Metadata } from 'next'
 
 export const siteMetadata: Metadata = {
-  title: 'İstanbul Evden Eve Nakliyat & Parça Eşya Taşıma | Anında Net Fiyat',
+  metadataBase: new URL('https://www.netfiyatal.com'),
+  title: 'Net Fiyat Al - Anında Nakliye Fiyatı Hesapla',
   description:
-    'Sürpriz maliyetlere son! İstanbul içi nakliye ve parça eşya taşıma fiyatınızı saniyeler içinde hesaplayın. Fotoğrafınızı gönderin, fiyatı sabitleyin.',
+    'Sürpriz maliyet olmadan net fiyat alın! Net Fiyat Al ile İstanbul içi nakliye ve parça eşya taşıma fiyatınızı saniyeler içinde hesaplayın. Fotoğrafınızı gönderin, fiyatı sabitleyin. netfiyatal.com',
+  openGraph: {
+    title: 'Net Fiyat Al - Anında Nakliye Fiyatı Hesapla',
+    description:
+      'Sürpriz maliyet olmadan net fiyat alın! İstanbul içi nakliye ve parça eşya taşıma fiyatınızı saniyeler içinde hesaplayın.',
+    url: 'https://www.netfiyatal.com',
+    siteName: 'Net Fiyat Al',
+    locale: 'tr_TR',
+    type: 'website',
+  },
   icons: {
     icon: [
       {
