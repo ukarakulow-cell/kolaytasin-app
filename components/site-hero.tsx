@@ -28,8 +28,15 @@ const NAV_LINKS = [
   { label: "İletişim", href: "#hesaplama" },
 ]
 
-export default function SiteHero() {
+type SiteHeroProps = {
+  districtName?: string
+}
+
+export default function SiteHero({ districtName }: SiteHeroProps = {}) {
   const [menuOpen, setMenuOpen] = useState(false)
+  const heroTitle = districtName
+    ? `${districtName} Nakliye Fiyatı Hesapla`
+    : "Net Fiyat Al: İstanbul Nakliyesinde Sürpriz Maliyet Yok"
 
   return (
     <header className="relative overflow-hidden">
@@ -88,7 +95,7 @@ export default function SiteHero() {
           </span>
 
           <h1 className="text-balance text-4xl font-extrabold leading-[1.1] tracking-tight text-primary sm:text-5xl">
-            Net Fiyat Al: İstanbul Nakliyesinde Sürpriz Maliyet Yok
+            {heroTitle}
           </h1>
 
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
